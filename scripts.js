@@ -37,19 +37,19 @@ async function checkWeather(city){
 
     switch(weather_data.weather[0].main){
         case 'Clouds':
-            weather_img.src = "https://github.com/ajitdikshit/weather-app/blob/main/assets/cloud.png?raw=true";
+            weather_img.src = "cloud.png";
             break;
         case 'Clear':
-            weather_img.src = "https://github.com/ajitdikshit/weather-app/blob/main/assets/clear.png?raw=true";
+            weather_img.src = "clear.png";
             break;
         case 'Rain':
-            weather_img.src = "https://github.com/ajitdikshit/weather-app/blob/main/assets/rain.png?raw=true";
+            weather_img.src = "rain.png";
             break;
         case 'Mist':
-            weather_img.src = "https://github.com/ajitdikshit/weather-app/blob/main/assets/mist.png?raw=true";
+            weather_img.src = "mist.png";
             break;
         case 'Snow':
-            weather_img.src = "https://github.com/ajitdikshit/weather-app/blob/main/assets/snow.png?raw=true";
+            weather_img.src = "snow.png";
             break;
 
     }
